@@ -1,7 +1,7 @@
-const NameBadge = ({}) => {
+const NameBadge = ({ displayedName }) => {
   return (
     <nameBadge>
-      <h1>Andrea Calderon</h1>
+      <h1>{displayedName}</h1>
     </nameBadge>
   );
 };
